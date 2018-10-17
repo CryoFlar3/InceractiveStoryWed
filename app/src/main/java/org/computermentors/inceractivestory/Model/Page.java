@@ -20,6 +20,14 @@ public class Page {
         this.choice2 = choice2;
     }
 
+    public boolean isFinalPage(){
+        return isFinalPage;
+    }
+
+    public void setFinalPage(Boolean finalPage) {
+        isFinalPage = finalPage;
+    }
+
     public int getImageId() {
         return imageId;
     }
